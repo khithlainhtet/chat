@@ -37,7 +37,7 @@ let chats;
 // =====================
 async function initDB() {
   await mongoClient.connect();
-  const db = mongoClient.db("nora_bot");
+  const db = mongoClient.db("MYANMAR_FRIEND_BOT");
 
   sessions = db.collection("sessions");
   chats = db.collection("chats");
@@ -84,7 +84,7 @@ async function getAIReply(prompt) {
 // =====================
 bot.start(async (ctx) => {
   await ctx.reply(
-    `ဟယ်လို ${getName(ctx)} 👋\nNora AI ready 💜`
+    `ဟယ်လို ${getName(ctx)} 👋\nHANTHAR AI ready 💜`
   );
 });
 
@@ -120,7 +120,7 @@ const app = express();
 const SECRET_PATH = `/bot${BOT_TOKEN}`;
 
 app.get("/", (req, res) => {
-  res.send("Nora bot running ✅");
+  res.send("HANTHAR bot running ✅");
 });
 
 app.post(SECRET_PATH, express.json(), bot.webhookCallback());
