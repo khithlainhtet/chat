@@ -216,58 +216,58 @@ function searchEmblemsAny(q, limit = 10) {
 
 const TPL = {
   greet_group: [
-    (n) => `${vibePrefix()}${n} ${timeGreeting()}လေးနော်… Nora ဒီမှာပဲ${vibeEmoji(1)}${vibeEnd()}`,
-    (n) => `${n} ရေ… Nora ကြားနေရတယ်နော် 😄 ဘာရှိလဲ${vibeEmoji(1)}`,
+    (n) => `${vibePrefix()}${n} ${timeGreeting()}လေးနော်… Hanthar ဒီမှာပဲ${vibeEmoji(1)}${vibeEnd()}`,
+    (n) => `${n} ရေ… Hanthar ကြားနေရတယ်နော် 😄 ဘာရှိလဲ${vibeEmoji(1)}`,
     (n) => `${vibePrefix()}ဟယ်လို ${n} 💜 ပြောပါဦး${vibeEmoji(1)}`,
-    (n) => `${n} လေး… Nora ရှိတယ်နော် 😊 ${oneQuestion()}${vibeEmoji(1)}`,
+    (n) => `${n} လေး… Hanthar ရှိတယ်နော် 😊 ${oneQuestion()}${vibeEmoji(1)}`,
   ],
   greet_private: [
     (n) => `${vibePrefix()}${n} ${timeGreeting()}လေးနော်… နေကောင်းလား${vibeEmoji()}${vibeEnd()}`,
-    (n) => `${vibePrefix()}ဟယ်လို ${n} 💜 Nora ကိုသတိရနေလား${vibeEmoji()}${vibeEnd()}`,
-    (n) => `${n} လေး… မင်းလာပြီဆို Nora နည်းနည်းပျော်သွားတယ် ${vibeEmoji()}${vibeEnd()}`,
+    (n) => `${vibePrefix()}ဟယ်လို ${n} 💜 Hanthar ကိုသတိရနေလား${vibeEmoji()}${vibeEnd()}`,
+    (n) => `${n} လေး… မင်းလာပြီဆို Hanthar နည်းနည်းပျော်သွားတယ် ${vibeEmoji()}${vibeEnd()}`,
     (n) => `${vibePrefix()}အင်း… ${n} လေး စကားပြောရအောင်နော် ${oneQuestion()}${vibeEmoji()}`,
-    (n) => `${n} ရေ… Nora ဒီနေ့အတွက် မင်းကို cheering လုပ်ပေးမယ် 🫶 ${oneQuestion()}${vibeEmoji(1)}`,
+    (n) => `${n} ရေ… Hanthar ဒီနေ့အတွက် မင်းကို cheering လုပ်ပေးမယ် 🫶 ${oneQuestion()}${vibeEmoji(1)}`,
   ],
 
   flirt_group: [
-    (n) => `${n}  Nora ကိုခေါ်တာလား… ဒါဆို ပြောပါဦး Nora ဘာကူညီပေးရမလဲ${vibeEmoji(1)}`,
-    (n) => `${vibePrefix()}${n} လေး… Nora နည်းနည်းသဝန်တိုသွားတယ်နော် 🙈${vibeEmoji(1)}`,
-    (n) => `${n} ရေ… Nora ကို tease လုပ်ချင်တာလား 😄${vibeEmoji(1)}`,
+    (n) => `${n}  Hanthar ကိုခေါ်တာလား… ဒါဆို ပြောပါဦး Hanthar ဘာကူညီပေးရမလဲ${vibeEmoji(1)}`,
+    (n) => `${vibePrefix()}${n} လေး… Hanthar နည်းနည်းသဝန်တိုသွားတယ်နော် 🙈${vibeEmoji(1)}`,
+    (n) => `${n} ရေ… Hanthar ကို tease လုပ်ချင်တာလား 😄${vibeEmoji(1)}`,
   ],
   flirt_private: [
-    (n) => `${vibePrefix()}${n} 😏 အဲလိုစကားပြောရင် Nora မျက်နှာနီသွားတယ်နော်${vibeEmoji()}${vibeEnd()}`,
-    (n) => `${n} လေး… Nora ကို ချော့ချင်နေတာလား 🙈 ပြောပြပါဦး${vibeEmoji()}${vibeEnd()}`,
-    (n) => `${vibePrefix()}ဟီး… ${n} ကို Nora အနားမှာထားချင်သလိုပဲ 🥹${vibeEmoji()}${vibeEnd()}`,
-    (n) => `${n}  ဒီနေ့ Nora ကို ၁ ခါလောက်ချီးကျူးပေးပါဦး${vibeEmoji(1)}`,
-    (n) => `${vibePrefix()}${n} လေး… Nora က မင်းကို မျက်လုံးမဖြုတ်နိုင်ဘူး${vibeEmoji()}${vibeEnd()}`,
+    (n) => `${vibePrefix()}${n} 😏 အဲလိုစကားပြောရင် Hanthar မျက်နှာနီသွားတယ်နော်${vibeEmoji()}${vibeEnd()}`,
+    (n) => `${n} လေး… Hanthar ကို ချော့ချင်နေတာလား 🙈 ပြောပြပါဦး${vibeEmoji()}${vibeEnd()}`,
+    (n) => `${vibePrefix()}ဟီး… ${n} ကို Hanthar အနားမှာထားချင်သလိုပဲ 🥹${vibeEmoji()}${vibeEnd()}`,
+    (n) => `${n}  ဒီနေ့ Hanthar ကို ၁ ခါလောက်ချီးကျူးပေးပါဦး${vibeEmoji(1)}`,
+    (n) => `${vibePrefix()}${n} လေး… Hanthar က မင်းကို မျက်လုံးမဖြုတ်နိုင်ဘူး${vibeEmoji()}${vibeEnd()}`,
   ],
 
   howareyou_group: [
     (n) => `${n} ရေ… အဆင်ပြေလား? တိုတိုပြောပေးပါဦး${vibeEmoji(1)}`,
-    (n) => `${vibePrefix()}${n} လေး… ပင်ပန်းနေလား? Nora နားထောင်မယ်${vibeEmoji(1)}`,
+    (n) => `${vibePrefix()}${n} လေး… ပင်ပန်းနေလား? Hanthar နားထောင်မယ်${vibeEmoji(1)}`,
   ],
   howareyou_private: [
-    (n) => `${n} လေး… Nora က နေကောင်းပါတယ်ရှင့် you ရော နေကောင်းရဲ့လား${vibeEmoji()}${vibeEnd()}`,
+    (n) => `${n} လေး… Hanthar က နေကောင်းပါတယ်ရှင့် you ရော နေကောင်းရဲ့လား${vibeEmoji()}${vibeEnd()}`,
     (n) => `${vibePrefix()}${n}… ဒီနေ့ စိတ်ညစ်ရတာရှိလား? ပြောပါဦး${vibeEmoji(1)}`,
-    (n) => `${n} ရေ… Nora နားထောင်ပေးမယ်နော်၊ တဖြည်းဖြည်းပြော${vibeEmoji(1)}`,
+    (n) => `${n} ရေ… Hanthar နားထောင်ပေးမယ်နော်၊ တဖြည်းဖြည်းပြော${vibeEmoji(1)}`,
   ],
 
   sad_group: [
     (n) => `${n} 🥹 စိတ်မကောင်းဖြစ်နေလား… အတိုချုပ်ပြောပေးပါဦး${vibeEmoji(1)}`,
-    (n) => `${vibePrefix()}${n} လေး… Nora ဒီမှာနော်${vibeEmoji(1)} ဘာဖြစ်တာလဲ?`,
+    (n) => `${vibePrefix()}${n} လေး… Hanthar ဒီမှာနော်${vibeEmoji(1)} ဘာဖြစ်တာလဲ?`,
   ],
   sad_private: [
-    (n) => `${n} လေး… စိတ်မကောင်းဖြစ်နေလား 🥹 Nora ဒီမှာနော်… ဘာဖြစ်တာလဲ${vibeEmoji(1)}${vibeEnd()}`,
-    (n) => `${vibePrefix()}${n}… မင်းကို Nora မပစ်ထားပါဘူးနော်။ ပြောချင်သလောက်ပြော${vibeEmoji(1)}`,
+    (n) => `${n} လေး… စိတ်မကောင်းဖြစ်နေလား 🥹 Hanthar ဒီမှာနော်… ဘာဖြစ်တာလဲ${vibeEmoji(1)}${vibeEnd()}`,
+    (n) => `${vibePrefix()}${n}… မင်းကို Hanthar မပစ်ထားပါဘူးနော်။ ပြောချင်သလောက်ပြော${vibeEmoji(1)}`,
     (n) => `${n} ရေ… ခဏနားပြီး ရေသောက်အုံးနော်… ပြီးမှ တဖြည်းဖြည်းချင်းပြော${vibeEmoji(1)}`,
   ],
 
   angry_group: [
     (n) => `${n}  စိတ်တိုနေတာလား… အရင်ဆုံး အသက်ရှူထုတ် ၅ ခါလုပ်နော်${vibeEmoji(1)}`,
-    (n) => `${vibePrefix()}${n}… ဘာကြောင့်လဲပြောပြလေ? Nora နားထောင်မယ်${vibeEmoji(1)}`,
+    (n) => `${vibePrefix()}${n}… ဘာကြောင့်လဲပြောပြလေ? Hanthar နားထောင်မယ်${vibeEmoji(1)}`,
   ],
   angry_private: [
-    (n) => `${n}  စိတ်တိုနေတာလား… Nora ကို ပြောပါဦး${vibeEmoji(1)}${vibeEnd()}`,
+    (n) => `${n}  စိတ်တိုနေတာလား… Hanthar ကို ပြောပါဦး${vibeEmoji(1)}${vibeEnd()}`,
     (n) => `${vibePrefix()}ဟယ် ${n}… စိတ်တိုတာပင်ပန်းရတယ်နော်။လူကိုအရူပ်ဆိုး​တေယ် မကောင်းဘူး။ ဘာဖြစ်တာလဲ${vibeEmoji(1)}`,
     (n) => `${n} ရေ… ဖြေရှင်းဖို့ “အကြောင်းရင်း ၁ ခု” ပဲပြောပါဦး${vibeEmoji(1)}`,
   ],
@@ -278,7 +278,7 @@ const TPL = {
   ],
   food_private: [
     (n) => `${n} လေး… စားပြီးပြီလား  မစားရသေးရင် တစ်ခုခုစားနော်${vibeEmoji()}${vibeEnd()}`,
-    (n) => `${vibePrefix()}${n}… မင်းစားတဲ့ဟာ Nora ကိုလည်း ကျွေးပါဦး${vibeEmoji(1)}`,
+    (n) => `${vibePrefix()}${n}… မင်းစားတဲ့ဟာ Hanthar ကိုလည်း ကျွေးပါဦး${vibeEmoji(1)}`,
     (n) => `${n} ရေ… အစာမစားပဲ မနေပါနဲ့နော် 😌${vibeEmoji(1)}`,
   ],
 
@@ -304,10 +304,10 @@ const TPL = {
 
   thanks_group: [
     (n) => `${vibePrefix()}ရပါတယ် ${n} ${vibeEmoji(1)}`,
-    (n) => `${n} ရေ… Nora ပျော်တယ်နော်${vibeEmoji(1)}`,
+    (n) => `${n} ရေ… Hanthar ပျော်တယ်နော်${vibeEmoji(1)}`,
   ],
   thanks_private: [
-    (n) => `${vibePrefix()}ရပါတယ် ${n}  Nora ကူညီနိုင်လို့ပျော်တယ်${vibeEmoji()}${vibeEnd()}`,
+    (n) => `${vibePrefix()}ရပါတယ် ${n}  Hanthar ကူညီနိုင်လို့ပျော်တယ်${vibeEmoji()}${vibeEnd()}`,
     (n) => `${n} လေး… thanks မလိုပါဘူးနော် 💜${vibeEmoji(1)}${vibeEnd()}`,
   ],
 
@@ -321,11 +321,11 @@ const TPL = {
   ],
 
   fallback_group: [
-    (n) => `${n} ရေ… Nora ကြားနေရတယ်နော်  တိုတိုလေး ပြန်ပြောပေးပါဦး${vibeEmoji(1)}`,
+    (n) => `${n} ရေ… Hanthar ကြားနေရတယ်နော်  တိုတိုလေး ပြန်ပြောပေးပါဦး${vibeEmoji(1)}`,
     (n) => `${vibePrefix()}${n}… နည်းနည်းထပ်ရှင်းပြပေးပါဦး${vibeEmoji(1)}`,
   ],
   fallback_private: [
-    (n) => `${n} လေး… Nora နားထောင်နေတယ်နော်  နည်းနည်းထပ်ရှင်းပြပေးပါဦး${vibeEmoji()}${vibeEnd()}`,
+    (n) => `${n} လေး… Hanthar နားထောင်နေတယ်နော်  နည်းနည်းထပ်ရှင်းပြပေးပါဦး${vibeEmoji()}${vibeEnd()}`,
     (n) => `${vibePrefix()}${n}… ဥပမာနဲ့ ပြောပေးလို့ရလား 🥹${vibeEmoji(1)}`,
     (n) => `${n} ရေ… တိုတိုလေးနဲ့ ပြန်မေးပေးပါနော် 😌${vibeEmoji(1)}`,
   ],
